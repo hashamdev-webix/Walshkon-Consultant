@@ -17,7 +17,7 @@ export default function Home() {
         {/* Background image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/hero-consultation.jpg"
+            src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Professional consultation"
             fill
             className="object-cover"
@@ -115,7 +115,7 @@ export default function Home() {
             {/* Left Image */}
             <div className="relative">
               <div className="relative h-[520px] rounded-2xl overflow-hidden shadow-2xl">
-                <Image src="/about-company.jpg" alt="Expert consulting team" fill className="object-cover" loading="eager" />
+                <Image src="https://images.unsplash.com/photo-1590650516494-0c8e4a4dd67e?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Expert consulting team" fill className="object-cover" loading="eager" />
               </div>
               {/* Floating stat card */}
               <div className="absolute -bottom-6 -right-6 bg-accent text-white rounded-2xl p-6 shadow-2xl">

@@ -13,7 +13,7 @@ export default function ContactPage() {
       {/* ─── HERO — dark full-width banner (unique to contact page) ─── */}
       <section className="relative bg-[oklch(0.10_0_0)] py-28 px-4 sm:px-6 lg:px-8 overflow-hidden">
         <div className="absolute inset-0 opacity-20">
-          <Image src="/hero-consultation.jpg" alt="" fill className="object-cover" />
+          <Image src="https://plus.unsplash.com/premium_photo-1661301084402-1a0452b5850e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" fill className="object-cover" />
         </div>
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-transparent" />
         <div className="relative z-10 max-w-7xl mx-auto text-center">

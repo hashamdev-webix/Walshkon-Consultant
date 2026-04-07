@@ -13,7 +13,7 @@ export default function AboutPage() {
       {/* ─── HERO — full-width image banner with overlay ─── */}
       <section className="relative h-[60vh] min-h-[480px] flex items-end overflow-hidden">
         <Image
-          src="/about.jpg"
+          src="https://images.unsplash.com/photo-1590650516494-0c8e4a4dd67e?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="Walshkon consulting team"
           fill
           className="object-cover"
@@ -54,7 +54,7 @@ export default function AboutPage() {
 
             <div className="relative">
               <div className="relative h-[480px] rounded-2xl overflow-hidden shadow-2xl">
-                <Image src="/hero-consultation.jpg" alt="Global consulting network" fill className="object-cover" />
+                <Image src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Global consulting network" fill className="object-cover" />
                 <div className="absolute inset-0 bg-black/15" />
               </div>
               {/* Corner accent */}
