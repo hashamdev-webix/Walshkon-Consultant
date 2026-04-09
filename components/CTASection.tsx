@@ -17,17 +17,17 @@ export default function CTASection({
   buttonHref = '/contact',
 }: CTASectionProps) {
   return (
-    <section className="py-10 px-4 sm:px-6 lg:px-8 border-t border-border">
+    <section className="py-8 sm:py-10 px-4 sm:px-6 lg:px-8 border-t border-border">
       <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6">
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 sm:gap-6">
           <div>
-            <h2 className="text-xl font-bold text-foreground mb-1">{title}</h2>
+            <h2 className="text-lg sm:text-xl font-bold text-foreground mb-1">{title}</h2>
             <p className="text-muted-foreground font-sans text-sm">{description}</p>
           </div>
           {buttonHref && (
             <Link
               href={buttonHref}
-              className="flex-shrink-0 inline-flex items-center gap-2 bg-accent text-white px-6 py-2.5 rounded-lg font-semibold font-sans text-sm hover:opacity-90 transition-opacity"
+              className="flex-shrink-0 inline-flex items-center justify-center gap-2 bg-accent text-white px-6 py-2.5 rounded-lg font-semibold font-sans text-sm hover:opacity-90 transition-opacity w-full sm:w-auto"
             >
               {buttonText}
               <ArrowRight className="w-3.5 h-3.5" />
